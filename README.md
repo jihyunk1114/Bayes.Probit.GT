@@ -33,7 +33,7 @@ This project is licensed under the MIT License.
 
 ## Authors
 
-Jihyun Kim [Email me](mailto:jihyunk@email.sc.edu)
+Jihyun Kim: [jihyunk@email.sc.edu](mailto:jihyunk@email.sc.edu)
 
 ## Acknowledgments
 
