@@ -29,11 +29,11 @@ Guidelines for contributing to the project, such as reporting issues or submitti
 
 ## License
 
-Specify the license under which the project is distributed.
+This project is licensed under the MIT License.
 
 ## Authors
 
-List the authors or contributors of the project.
+Jihyun Kim [Email me](mailto:jihyunk@email.sc.edu)
 
 ## Acknowledgments
 
