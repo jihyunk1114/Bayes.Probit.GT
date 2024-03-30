@@ -32,7 +32,19 @@ Instructions on how to use the project, including examples if applicable.
 
 ## Contributing
 
-Guidelines for contributing to the project, such as reporting issues or submitting pull requests.
+## Contributing
+
+Thank you for considering contributing to the project! Whether you're reporting a bug, proposing a new feature, or submitting a pull request, your contributions are welcome.
+
+### How to Contribute
+
+1. **Reporting Issues:** If you encounter any bugs or issues with the project, please [open a new issue](https://github.com/jihyunk1114/Bayes.Probit.GT/issues) on GitHub. Include detailed information about the problem and steps to reproduce it.
+
+2. **Submitting Pull Requests:** If you'd like to contribute code changes or new features, feel free to submit a pull request. Before doing so, please make sure to fork the repository, create a new branch for your changes, and write clear commit messages.
+
+3. **Feature Requests:** If you have ideas for new features or improvements, you can also [submit a feature request](https://github.com/jihyunk1114/Bayes.Probit.GT/issues) on GitHub. Provide as much detail as possible about the proposed feature and why it would be valuable.
+
+Thank you for helping to improve the project!
 
 ## License
 
