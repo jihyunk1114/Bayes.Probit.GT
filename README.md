@@ -1,5 +1,7 @@
 # Regression Analysis of Group-Tested Current Status Data under Semiparametric Probit Model
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 This project includes Bayes.Probit.GT function that identifies significant risk factors and assesses their effects as well as estimating the cumulative incidence functions for different subgroups under semiparametric Probit model.
