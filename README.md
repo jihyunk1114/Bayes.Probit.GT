@@ -79,31 +79,35 @@ The input for the Bayes.Probit.GT function requires specific formatting, which c
 
 Define the arguments for the Bayes.Probit.GT function:
 <details>
-<summary>Click to expand/collapse arguments</summary>
-- Z: A matrix of testing responses. Each row represents a test, with columns indicating the individual's ID, the number of individuals in the test, the assay used, and the indices of the individuals assigned to the test pools. * can be produced by using functions in **Testing Functions.txt** file.
-- X: Covariate matrix containing covariate information for each individual.
-- Y: Matrix indicating the pools each individual was assigned to.  * can be produced by using functions in **Testing Functions.txt** file.
-- c: Censoring or testing time for each individual.
-- grid: Grid definition for calculating the baseline survival function. Default is NULL.
-- n.grid: Length of the grid.
-- init.theta: Initial value of theta (Default is 0 vector)
-- eta: Initial value of hyper parameter eta (Default is 1)
-- gam0: Initial value of gam0 for the splines (Default is -3)
-- gam: Initial values of the spline coefficients (Defalut is rep(0.1, m+order))
-- theta0, Sigma0, m0, v0, a0, b0, ae, be, ap, bp: Priors for the model. Default number is given.
-- Se: Vector of sensitivity values, if known.
-- Sp: Vector of specificity values, if known.
-- order: Order for I splines (usually 3 or 4).
-- knots: Interior knots for the spline functions. Default is NULL.
-- m: Number of interior knots.
-- quantile: If TRUE, knots are created based on quantiles. If FALSE, equally spaced knots are created.
-- maxiter: Maximum number of iterations.
-- burn.in: Burn-in period.
-- na: Number of arrays.
-- err.est: Set to TRUE if assay accuracies are unknown.
-
-Be sure to use these arguments appropriately when calling the function.
+  <summary>Click to expand/collapse arguments</summary>
+  
+  <ul>
+    <li>Z: A matrix of testing responses. Each row represents a test, with columns indicating the individual's ID, the number of individuals in the test, the assay used, and the indices of the individuals assigned to the test pools. * can be produced by using functions in <strong>Testing Functions.txt</strong> file.</li>
+    <li>X: Covariate matrix containing covariate information for each individual.</li>
+    <li>Y: Matrix indicating the pools each individual was assigned to. * can be produced by using functions in <strong>Testing Functions.txt</strong> file.</li>
+    <li>c: Censoring or testing time for each individual.</li>
+    <li>grid: Grid definition for calculating the baseline survival function. Default is NULL.</li>
+    <li>n.grid: Length of the grid.</li>
+    <li>init.theta: Initial value of theta (Default is 0 vector)</li>
+    <li>eta: Initial value of hyper parameter eta (Default is 1)</li>
+    <li>gam0: Initial value of gam0 for the splines (Default is -3)</li>
+    <li>gam: Initial values of the spline coefficients (Defalut is rep(0.1, m+order))</li>
+    <li>theta0, Sigma0, m0, v0, a0, b0, ae, be, ap, bp: Priors for the model. Default number is given.</li>
+    <li>Se: Vector of sensitivity values, if known.</li>
+    <li>Sp: Vector of specificity values, if known.</li>
+    <li>order: Order for I splines (usually 3 or 4).</li>
+    <li>knots: Interior knots for the spline functions. Default is NULL.</li>
+    <li>m: Number of interior knots.</li>
+    <li>quantile: If TRUE, knots are created based on quantiles. If FALSE, equally spaced knots are created.</li>
+    <li>maxiter: Maximum number of iterations.</li>
+    <li>burn.in: Burn-in period.</li>
+    <li>na: Number of arrays.</li>
+    <li>err.est: Set to TRUE if assay accuracies are unknown.</li>
+  </ul>
+  
+  Be sure to use these arguments appropriately when calling the function.
 </details>
+
 
 ### 4. Output:
 - **theta.mat:** Matrix containing the theta chain.
