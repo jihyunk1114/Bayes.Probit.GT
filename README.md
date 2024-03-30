@@ -110,7 +110,7 @@ Be sure to use these arguments appropriately when calling the function.
 - **St:** Estimated baseline survival function based on the provided grid.
 - **summary.theta:** Table summarizing theta, including posterior mean, 2.5% quantile, and 97.5% quantile. If `err.est = TRUE`, it also provides information about array accuracy estimations.
 
-### Examples
+## Examples
 
 Here are some example codes from the `Simulate.R` file:
 
