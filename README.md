@@ -17,6 +17,7 @@ Basic simulation code is available in the `Simulate.R` file.
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example](#example)
 - [Contributing](#contributing)
 - [License](#license)
 - [Authors](#authors)
@@ -92,7 +93,40 @@ Define the arguments for the Bayes.Probit.GT function:
 Be sure to use these arguments appropriately when calling the function.
 
 
-4. 
+4. Output:
+- **theta.mat:** Matrix containing the theta chain.
+- **g.mat:** Unknown function g(t) based on the grid.
+- **grid:** Indicates the grid used for estimation.
+- **St:** Estimated baseline survival function based on the provided grid.
+- **summary.theta:** Table summarizing theta, including posterior mean, 2.5% quantile, and 97.5% quantile. If `err.est = TRUE`, it also provides information about array accuracy estimations.
+
+### Examples
+
+Here are some example codes from the `Simulate.R` file:
+
+#### Simulate Dorfman Group Testing
+
+```R
+# Simulate Dorfman group testing
+Dorf.Data = Dorfman.decode.diff.error(Y.true, Se.true, Sp.true, d)
+Z2 = Dorf.Data$Z
+Y2 = Dorf.Data$Y
+```
+The above code is for input formatting in the Dorfman testing scenario.
+
+```R
+df = Bayes.Probit.GT(Z2, X, Y2, c, Se = c(0.95, 0.98), Sp = c(0.98, 0.99), na = 2)
+df$summary.theta
+```
+The above code is when using Bayes.Probit.GT, which is the main function. This is when assay accuracies are known.
+
+```R
+# Unknown assay accuracies
+df.unknown = Bayes.Probit.GT(Z2, X, Y2, c, na = 2, err.est = TRUE)
+df.unknown$summary.theta
+```
+This is when the assay accuracies are unknown.
+
 
 ## Contributing
 
