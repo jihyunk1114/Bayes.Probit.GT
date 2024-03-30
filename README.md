@@ -37,8 +37,6 @@ Jihyun Kim: [jihyunk@email.sc.edu](mailto:jihyunk@email.sc.edu)
 
 ## Acknowledgments
 
-## Acknowledgments
-
 This project utilizes several external packages and resources. We acknowledge the following:
 
 - [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
