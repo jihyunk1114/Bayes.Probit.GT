@@ -1,4 +1,4 @@
-# Project Name
+# Regression Analysis of Group-Tested Current Status Data under Semiparametric Probit Mode
 
 ## Description
 
