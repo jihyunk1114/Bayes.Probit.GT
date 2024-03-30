@@ -1,8 +1,8 @@
-# Regression Analysis of Group-Tested Current Status Data under Semiparametric Probit Mode
+# Regression Analysis of Group-Tested Current Status Data under Semiparametric Probit Model
 
 ## Description
 
-Brief description of the project and its purpose.
+This project includes Bayes.Probit.GT function that identifies significant risk factors and assesses their effects as well as estimating the cumulative incidence functions for different subgroups under semiparametric Probit model.
 
 ## Table of Contents
 
