@@ -4,7 +4,14 @@
 
 ## Description
 
-This project includes Bayes.Probit.GT function that identifies significant risk factors and assesses their effects as well as estimating the cumulative incidence functions for different subgroups under semiparametric Probit model.
+This project includes the `Bayes.Probit.GT` function, which serves multiple purposes:
+
+- Identifies significant risk factors and assesses their effects.
+- Estimates the cumulative incidence functions for different subgroups under a semiparametric Probit model.
+- Can be used for various group testing methodologies such as master pooling, Dorfman testing, and array testing.
+- For Dorfman and array testing, it can also estimate the unknown array accuracies.
+
+Basic simulation code is available in the `sample.R` file.
 
 ## Table of Contents
 
