@@ -37,16 +37,16 @@ Before using the `Bayes.Probit.GT` function, ensure that the following R package
 ```R
 install.packages(c("mvtnorm", "truncnorm", "Rcpp"))
 ```
-## 3. Prepare Input Data
+### 3. Prepare Input Data
 
 The `Bayes.Probit.GT` function requires specific input data formats, which can be generated using functions provided in the Testing Functions.txt file.
 Refer to the descriptions provided in the Testing Functions.txt file for details on each model and how to prepare the input data.
 
-## 4. Read Documentation
+### 4. Read Documentation
 
 Familiarize yourself with the functionality and usage of the `Bayes.Probit.GT` function by reading the documentation provided in the Testing Functions.txt file.
 
-## 5. Run Basic Examples
+### 5. Run Basic Examples
 
 Explore basic examples of how to use the `Bayes.Probit.GT` function by sourcing the necessary files and running simple simulations for each model.
 Refer to the Simulate.R file for a starting point and modify the code as needed for your specific use case.
