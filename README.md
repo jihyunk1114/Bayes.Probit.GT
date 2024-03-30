@@ -78,6 +78,8 @@ The input for the Bayes.Probit.GT function requires specific formatting, which c
 ### 3. Arguments:
 
 Define the arguments for the Bayes.Probit.GT function:
+<details>
+<summary>Click to expand/collapse arguments</summary>
 - Z: A matrix of testing responses. Each row represents a test, with columns indicating the individual's ID, the number of individuals in the test, the assay used, and the indices of the individuals assigned to the test pools. * can be produced by using functions in **Testing Functions.txt** file.
 - X: Covariate matrix containing covariate information for each individual.
 - Y: Matrix indicating the pools each individual was assigned to.  * can be produced by using functions in **Testing Functions.txt** file.
@@ -101,7 +103,7 @@ Define the arguments for the Bayes.Probit.GT function:
 - err.est: Set to TRUE if assay accuracies are unknown.
 
 Be sure to use these arguments appropriately when calling the function.
-
+</details>
 
 ### 4. Output:
 - **theta.mat:** Matrix containing the theta chain.
