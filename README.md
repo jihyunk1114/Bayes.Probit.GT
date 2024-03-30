@@ -15,8 +15,18 @@ Basic simulation code is available in the `Simulate.R` file.
 
 ## Table of Contents
 
+## Table of Contents
+
 - [Installation](#installation)
+  - [Download the Repository](#1-download-the-repository)
+  - [Check Package Dependencies](#2-check-package-dependencies)
+  - [Prepare Input Data](#3-prepare-input-data)
+  - [Run Basic Examples](#4-run-basic-examples)
 - [Usage](#usage)
+  - [Source Necessary Files](#1-source-all-necessary-files)
+  - [Input Formatting](#2-input-formatting)
+  - [Arguments](#3-arguments)
+  - [Output](#4-output)
 - [Example](#example)
 - [Contributing](#contributing)
 - [License](#license)
@@ -25,25 +35,25 @@ Basic simulation code is available in the `Simulate.R` file.
 
 ## Installation
 
-1. Download the Repository
+###1. Download the Repository
 
 - Click the green "Code" button at the top of the GitHub repository.
 - Select "Download ZIP" to download the repository files to your local machine.
 - Extract the contents of the ZIP file to a directory of your choice.
 
-2. Check Package Dependencies
+###2. Check Package Dependencies
 
 Before using the `Bayes.Probit.GT` function, ensure that the following R packages are installed:
 
 ```R
 install.packages(c("mvtnorm", "truncnorm", "Rcpp"))
 ```
-3. Prepare Input Data
+###3. Prepare Input Data
 
 The `Bayes.Probit.GT` function requires specific input data formats, which can be generated using functions provided in the Testing Functions.txt file.
 Refer to the descriptions provided in the Testing Functions.txt file for details on each model and how to prepare the input data.
 
-4. Run Basic Examples
+###4. Run Basic Examples
 
 Explore basic examples of how to use the `Bayes.Probit.GT` function by sourcing the necessary files and running simple simulations for each model.
 Refer to the **Simulate.R** for a starting point and modify the code as needed for your specific use case.
@@ -54,18 +64,18 @@ By following these steps, you'll be ready to use the `Bayes.Probit.GT` package f
 
 To use the Bayes.Probit.GT function, follow these steps:
 
-1. Source all necessary files:
+###1. Source all necessary files:
 
 ```R
 Rcpp::sourceCpp("SampLatent.cpp")
 source("Testing Functions.txt")
 source("Bayes.Probit.GT.R")
 ```
-2. Input formatting:
+###2. Input formatting:
 
 The input for the Bayes.Probit.GT function requires specific formatting, which can be generated using functions provided in the **Testing Functions.txt** file. Each model is explained in detail in the text file, so be sure to read it carefully. You can also read 'Simulate.R' file.
 
-3. Arguments:
+###3. Arguments:
 
 Define the arguments for the Bayes.Probit.GT function:
 - Z: A matrix of testing responses. Each row represents a test, with columns indicating the individual's ID, the number of individuals in the test, the assay used, and the indices of the individuals assigned to the test pools. * can be produced by using functions in **Testing Functions.txt** file.
@@ -93,7 +103,7 @@ Define the arguments for the Bayes.Probit.GT function:
 Be sure to use these arguments appropriately when calling the function.
 
 
-4. Output:
+###4. Output:
 - **theta.mat:** Matrix containing the theta chain.
 - **g.mat:** Unknown function g(t) based on the grid.
 - **grid:** Indicates the grid used for estimation.
