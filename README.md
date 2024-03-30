@@ -49,7 +49,7 @@ Familiarize yourself with the functionality and usage of the `Bayes.Probit.GT` f
 ### 5. Run Basic Examples
 
 Explore basic examples of how to use the `Bayes.Probit.GT` function by sourcing the necessary files and running simple simulations for each model.
-Refer to the Simulate.R file for a starting point and modify the code as needed for your specific use case.
+Refer to the **<span style="color:blue">Simulate.R</span>** for a starting point and modify the code as needed for your specific use case.
 
 By following these steps, you'll be ready to use the `Bayes.Probit.GT` package for Bayesian Probit regression for group testing data analysis.
 
