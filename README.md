@@ -129,10 +129,14 @@ df = Bayes.Probit.GT(Z2, X, Y2, c, Se = c(0.95, 0.98), Sp = c(0.98, 0.99), na = 
 df$summary.theta
 ```
 The above code is when using Bayes.Probit.GT, which is the main function. This is when assay accuracies are known. The following is the output of summary table.
+<center>
+
 |       |   mean    |   q.025   |   q.975   |
-|-------|:---------:|:---------:|:---------:|
+|-------|-----------|-----------|-----------|
 | theta1| -0.4338011| -0.5571867| -0.3150934|
 | theta2|  0.4177333|  0.3035453|  0.5304893|
+
+</center>
 
 ```R
 # Unknown assay accuracies
