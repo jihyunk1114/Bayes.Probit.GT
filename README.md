@@ -148,7 +148,7 @@ df.unknown$summary.theta
 ```
 This is when the assay accuracies are unknown. The following is the output of summary table.
 |        |   mean      |   q.025    |   q.975    |
-|:------:|-----------:|-----------:|-----------:|
+|--------|-----------:|-----------:|-----------:|
 | theta1 | -0.4263136 | -0.5411589 | -0.3178616 |
 | theta2 |  0.4122725 |  0.2960741 |  0.5269901 |
 |   Se1  |  0.9658802 |  0.9130043 |  0.9979693 |
