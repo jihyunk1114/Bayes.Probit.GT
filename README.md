@@ -32,8 +32,6 @@ Instructions on how to use the project, including examples if applicable.
 
 ## Contributing
 
-## Contributing
-
 Thank you for considering contributing to the project! Whether you're reporting a bug, proposing a new feature, or submitting a pull request, your contributions are welcome.
 
 ### How to Contribute
