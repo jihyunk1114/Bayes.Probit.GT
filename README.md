@@ -42,11 +42,7 @@ install.packages(c("mvtnorm", "truncnorm", "Rcpp"))
 The `Bayes.Probit.GT` function requires specific input data formats, which can be generated using functions provided in the Testing Functions.txt file.
 Refer to the descriptions provided in the Testing Functions.txt file for details on each model and how to prepare the input data.
 
-### 4. Read Documentation
-
-Familiarize yourself with the functionality and usage of the `Bayes.Probit.GT` function by reading the documentation provided in the Testing Functions.txt file.
-
-### 5. Run Basic Examples
+### 4. Run Basic Examples
 
 Explore basic examples of how to use the `Bayes.Probit.GT` function by sourcing the necessary files and running simple simulations for each model.
 Refer to the **Simulate.R** for a starting point and modify the code as needed for your specific use case.
@@ -55,7 +51,16 @@ By following these steps, you'll be ready to use the `Bayes.Probit.GT` package f
 
 ## Usage
 
-Instructions on how to use the project, including examples if applicable.
+To use the Bayes.Probit.GT function, follow these steps:
+
+1. Source all necessary files:
+
+```R
+Rcpp::sourceCpp("SampLatent.cpp")
+source("Testing Functions.txt")
+source("Bayes.Probit.GT.R")
+```
+
 
 ## Contributing
 
