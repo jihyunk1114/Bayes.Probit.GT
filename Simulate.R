@@ -18,7 +18,7 @@ mean(Y.true)
 
 library(Rcpp)
 Rcpp::sourceCpp("SampLatent.cpp")
-source("/Users/Jihyunkim/Testing Functions.txt")
+source("Testing Functions.txt")
 source("Bayes.Probit.GT.R")
 
 #########################################
@@ -55,3 +55,4 @@ at$summary.theta
 # unknown assay accuracies
 at.unknown = Bayes.Probit.GT(Z3,X,Y3,c,na=2,err.est=TRUE)
 at.unknown$summary.theta
+
