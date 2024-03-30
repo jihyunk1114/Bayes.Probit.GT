@@ -128,14 +128,26 @@ The above code is for input formatting in the Dorfman testing scenario.
 df = Bayes.Probit.GT(Z2, X, Y2, c, Se = c(0.95, 0.98), Sp = c(0.98, 0.99), na = 2)
 df$summary.theta
 ```
-The above code is when using Bayes.Probit.GT, which is the main function. This is when assay accuracies are known.
+The above code is when using Bayes.Probit.GT, which is the main function. This is when assay accuracies are known. The following is the output of summary table.
+|      |   mean    |  q.025    |  q.975    |
+|------|-----------|-----------|-----------|
+| theta1 | -0.4338011 | -0.5571867 | -0.3150934 |
+| theta2 | 0.4177333  | 0.3035453  | 0.5304893  |
 
 ```R
 # Unknown assay accuracies
 df.unknown = Bayes.Probit.GT(Z2, X, Y2, c, na = 2, err.est = TRUE)
 df.unknown$summary.theta
 ```
-This is when the assay accuracies are unknown.
+This is when the assay accuracies are unknown. The following is the output of summary table.
+|      |   mean    |  q.025    |  q.975    |
+|------|-----------|-----------|-----------|
+| theta1 | -0.4263136 | -0.5411589 | -0.3178616 |
+| theta2 | 0.4122725  | 0.2960741  | 0.5269901  |
+| Se1    | 0.9658802  | 0.9130043  | 0.9979693  |
+| Se2    | 0.9919053  | 0.9757191  | 0.9996884  |
+| Sp1    | 0.9903258  | 0.9766167  | 0.9991935  |
+| Sp2    | 0.9900316  | 0.9823069  | 0.9961145  |
 
 
 ## Contributing
