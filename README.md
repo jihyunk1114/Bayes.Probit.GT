@@ -37,5 +37,13 @@ Jihyun Kim: [jihyunk@email.sc.edu](mailto:jihyunk@email.sc.edu)
 
 ## Acknowledgments
 
-Mention any external resources, libraries, or individuals you'd like to acknowledge.
+## Acknowledgments
 
+This project utilizes several external packages and resources. We acknowledge the following:
+
+- [Rcpp](https://cran.r-project.org/web/packages/Rcpp/index.html)
+- [mvtnorm](https://cran.r-project.org/web/packages/mvtnorm/index.html)
+- [truncnorm](https://cran.r-project.org/web/packages/truncnorm/index.html)
+- Dr. McMahan's C++ code containing the `SampLatent` function.
+
+We are grateful for the contributions of these packages and resources to our project.
