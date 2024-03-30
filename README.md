@@ -114,7 +114,7 @@ Be sure to use these arguments appropriately when calling the function.
 
 Here are some example codes from the `Simulate.R` file:
 
-#### Simulate Dorfman Group Testing
+Simulate Dorfman Group Testing:
 
 ```R
 # Simulate Dorfman group testing
