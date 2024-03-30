@@ -103,7 +103,7 @@ Define the arguments for the Bayes.Probit.GT function:
 Be sure to use these arguments appropriately when calling the function.
 
 
-###4. Output:
+### 4. Output:
 - **theta.mat:** Matrix containing the theta chain.
 - **g.mat:** Unknown function g(t) based on the grid.
 - **grid:** Indicates the grid used for estimation.
