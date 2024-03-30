@@ -24,7 +24,34 @@ Basic simulation code is available in the `sample.R` file.
 
 ## Installation
 
-Instructions for installing or setting up the project. Include any dependencies and how to install them.
+### 1. Download the Repository
+
+- Click the green "Code" button at the top of the GitHub repository.
+- Select "Download ZIP" to download the repository files to your local machine.
+- Extract the contents of the ZIP file to a directory of your choice.
+
+### 2. Check Package Dependencies
+
+Before using the `Bayes.Probit.GT` function, ensure that the following R packages are installed:
+
+```R
+install.packages(c("mvtnorm", "truncnorm", "Rcpp"))
+```
+## 3. Prepare Input Data
+
+The `Bayes.Probit.GT` function requires specific input data formats, which can be generated using functions provided in the Testing Functions.txt file.
+Refer to the descriptions provided in the Testing Functions.txt file for details on each model and how to prepare the input data.
+
+## 4. Read Documentation
+
+Familiarize yourself with the functionality and usage of the `Bayes.Probit.GT` function by reading the documentation provided in the Testing Functions.txt file.
+
+## 5. Run Basic Examples
+
+Explore basic examples of how to use the `Bayes.Probit.GT` function by sourcing the necessary files and running simple simulations for each model.
+Refer to the Simulate.R file for a starting point and modify the code as needed for your specific use case.
+
+By following these steps, you'll be ready to use the `Bayes.Probit.GT` package for Bayesian Probit regression for group testing data analysis.
 
 ## Usage
 
