@@ -15,8 +15,6 @@ Basic simulation code is available in the `Simulate.R` file.
 
 ## Table of Contents
 
-## Table of Contents
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example](#example)
