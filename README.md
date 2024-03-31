@@ -18,15 +18,7 @@ Basic simulation code is available in the `Simulate.R` file.
 ## Table of Contents
 
 - [Installation](#installation)
-  - [Download the Repository](#1-download-the-repository)
-  - [Check Package Dependencies](#2-check-package-dependencies)
-  - [Prepare Input Data](#3-prepare-input-data)
-  - [Run Basic Examples](#4-run-basic-examples)
 - [Usage](#usage)
-  - [Source Necessary Files](#1-source-all-necessary-files)
-  - [Input Formatting](#2-input-formatting)
-  - [Arguments](#3-arguments)
-  - [Output](#4-output)
 - [Example](#example)
 - [Contributing](#contributing)
 - [License](#license)
