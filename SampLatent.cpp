@@ -47,7 +47,6 @@ NumericVector SampLatent(int N,NumericVector p,NumericMatrix Y,NumericMatrix Z,
       }
     }
     pistar=(pi1/(pi1+pi2));
-    p(i)=pistar	;
     if(U(i)<pistar){
       Y(i,1-1)=1;
     }else{Y(i,1-1)=0;}
