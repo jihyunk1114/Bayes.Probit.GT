@@ -91,7 +91,6 @@ Define the arguments for the Bayes.Probit.GT function:
     <li>quantile: If TRUE, knots are created based on quantiles. If FALSE, equally spaced knots are created.</li>
     <li>maxiter: Maximum number of iterations.</li>
     <li>burn.in: Burn-in period.</li>
-    <li>na: Number of arrays.</li>
     <li>err.est: Set to TRUE if assay accuracies are unknown.</li>
   </ul>
   
