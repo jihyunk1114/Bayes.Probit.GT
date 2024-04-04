@@ -121,7 +121,7 @@ Y2 = Dorf.Data$Y
 The above code is for input formatting in the Dorfman testing scenario.
 
 ```R
-df = Bayes.Probit.GT(Z2, X, Y2, c, Se = c(0.95, 0.98), Sp = c(0.98, 0.99), na = 2)
+df = Bayes.Probit.GT(Z2, X, Y2, c, Se = c(0.95, 0.98), Sp = c(0.98, 0.99))
 df$summary.theta
 ```
 The above code is when using Bayes.Probit.GT, which is the main function. This is when assay accuracies are known. The following is the output of summary table.
@@ -133,7 +133,7 @@ The above code is when using Bayes.Probit.GT, which is the main function. This i
 
 ```R
 # Unknown assay accuracies
-df.unknown = Bayes.Probit.GT(Z2, X, Y2, c, na = 2, err.est = TRUE)
+df.unknown = Bayes.Probit.GT(Z2, X, Y2, c, err.est = TRUE)
 df.unknown$summary.theta
 ```
 This is when the assay accuracies are unknown. The following is the output of summary table.
